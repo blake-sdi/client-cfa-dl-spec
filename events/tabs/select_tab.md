@@ -2,6 +2,9 @@
 
 Fire whenever a user selects a an item out of a tabset that asynchronously updates the page. Do not use this for navigation menus as those should be covered by [menu data attributes](/data-attributes/menus.md).
 
+<img width="611" alt="image" src="https://user-images.githubusercontent.com/60939634/179827280-c654c364-8351-45fd-80f8-2ce3fc41af31.png">
+
+
 ## HTML Data Attributes
 
 ```html
