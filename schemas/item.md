@@ -46,7 +46,7 @@ An `item` is how GA4 refers to a product.  An item object should be sent wheneve
 |coupon|string|contextual|Coupon code used for a purchase.|SUMMER_FUN|
 |creative_name|string|recommended if item is being sent with a promotion event|The name of a creative used in a promotional spot.|summer_banner2|
 |creative_slot|string|recommended if item is being sent with a promotion event|The name of a creative slot.|featured_app_1|
-|currency|string|recommended|The currency, in 3-letter ISO 4217 format.|USD|
+|currency|string|recommended|The currency, in 3-letter ISO 4217 format.|`USD`,`CAD`|
 |discount|number|conditional|Monetary value of discount associated with a purchase.|2.22|
 |gtin|string|recommended|A Global Trade Item Number (GTIN). GTINs identify trade items, including products and services, using numeric identification codes. UPCs are a type of GTIN, so they should be added via this parameter.|012345678905|
 |index|number|conditional|The index/position of the item in a list.|2|
